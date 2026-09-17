@@ -129,9 +129,9 @@ footer {
 .product-card {
   margin-bottom: 16px;
   padding: 16px;
-  border: 1px solid #dddddd;
+  border: 1px solid hsl(0, 0%, 0%);
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: hsl(108, 100%, 27%);
 }
 
 /*
@@ -160,6 +160,21 @@ footer {
   background-color: #003f86;
 }
 
+.button-info {
+  display: inline-block;
+  padding: 10px 16px;
+  color: hsl(0, 100%, 1%);
+  background-color: hsla(138, 100%, 50%, 0.71);
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/*
+  Простое состояние наведения для кнопки.
+*/
+.button:hover {
+  background-color: hsl(295, 100%, 26%);
+}
 /*
   Дополнительный информационный блок.
 */
